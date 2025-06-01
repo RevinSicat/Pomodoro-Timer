@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: #6c9c89;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#project-title, #js-timer-footer {
+    color: #f7f7f7;
+}
+h3, h4, h5 {
+    font-weight: bold;
+    color: #6c9c89;
+}
+#twenty-five-timer-div {
+    border-radius: 16px;
+    width: 90vw;
+    max-width: 500px;
+    padding: 1rem;
+    box-sizing: border-box;
+    min-height: 40vh;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+#controls-div {
+    width: 100%;
+}
+.row {
+    margin: 8px 0px;
+}
+#break-decrement, #break-increment, #session-decrement, #session-increment {
+    border: 1px solid #6c9c89;
+    background-color: #f7f7f7;
+    color: #6c9c89;
+    padding: 0px;
+}
+hr {
+    margin: 16px 16px;
+}
+i {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    background-color: #6c9c89;
+    color: #f7f7f7;
+    font-weight: bold;
+}
